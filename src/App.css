@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  body, #root {
+    @apply bg-black text-white min-h-screen m-0 p-0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 0%);
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-text-primary {
+    color: hsl(var(--foreground, 0 0% 100%));
+  }
+
+  .neon-text {
+    color: #00f0ff;
+    text-shadow:
+      0 0 5px #00f0ff,
+      0 0 10px #00f0ff,
+      0 0 20px #00f0ff,
+      0 0 30px #00f0ff;
+  }
+
+  .neon-glow {
+    box-shadow:
+      0 0 5px #00f0ff,
+      0 0 15px #00f0ff,
+      0 0 25px #00f0ff;
+  }
+
+  .border-hover-blue:hover {
+    border-color: #00bfff;
+    box-shadow: 0 0 10px #00bfff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .bg-card {
+    background-color: hsl(var(--card, 0 0% 5%));
+  }
+
+  .glow-border {
+    border: 1px solid #00f0ff;
+    box-shadow:
+      0 0 5px #00f0ff,
+      0 0 10px #00f0ff;
+  }
+
+  .btn-glow:hover {
+    background-color: #00f0ff;
+    color: black;
+    box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .accent-blue-green {
+    background: linear-gradient(135deg, #00f0ff, #00ffb3);
+    color: black;
+  }
+}

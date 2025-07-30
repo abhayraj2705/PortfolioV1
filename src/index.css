@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global CSS Variables */
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --primary: 180 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --border: 0 0% 85%;
+}
+
+@layer base {
+  body,
+  #root {
+    @apply bg-black text-text-primary min-h-screen m-0 p-0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Apply light white border to all elements globally */
+  * {
+    border-color: hsl(var(--border));
+  }
+}
+
+@layer utilities {
+  .text-text-primary {
+    color: hsl(var(--foreground));
+  }
+
+  .text-text-secondary {
+    color: hsl(0 0% 70%);
+  }
+
+  .text-text-accent {
+    color: hsl(var(--primary));
+  }
+
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+
+  .bg-background-lighter {
+    background-color: hsl(0 0% 10%);
+  }
+
+  .text-primary {
+    color: hsl(var(--primary));
+  }
+
+  .border-light {
+    border-color: hsl(var(--border));
+  }
+
+  .neon-text {
+    color: #0ff;
+    text-shadow: 0 0 3px #0ff, 0 0 6px #0ff;
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 4px #0ff, 0 0 10px #0ff;
+  }
+}
