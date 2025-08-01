@@ -5,21 +5,31 @@ import { FiExternalLink } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Project 1",
-    description: "Description of project 1",
+    title: "Uniconnect",
+    description: "A full-stack college event management platform built with the MERN stack.",
     tech: ["React", "Node.js", "MongoDB"],
-    image: "/project1.jpg",
-    github: "https://github.com/example/project1",
-    live: "https://project1.live",
+    image: "/Uniconnect.png",
+    github: "https://github.com/abhayraj2705/Uniconnect",
+    live: "https://uniconnect-qs2s.onrender.com/",
   },
   {
-    title: "Project 2",
-    description: "A beautiful portfolio website.",
+    title: "GetmeAchai",
+    description: "A developer support platform inspired by Buy Me a Coffee",
     tech: ["Next.js", "TailwindCSS", "Framer Motion"],
-    image: "/project2.jpg",
-    github: "https://github.com/example/project2",
-    live: "https://project2.live",
+    image: "/Getmeachai.jfif",
+    github: "https://github.com/abhayraj2705/GetmeAchai",
+    live: "https://github.com/abhayraj2705/GetmeAchai",
   },
+  {
+    title: "FileManager",
+    description: "A PLatform build for manging your personal files",
+    tech: ["Next.js", "TailwindCSS", "Framer Motion"],
+    image: "/Filemanager.png",
+    github: "https://github.com/abhayraj2705/Filemanager",
+    live: "https://filemanager-frontend-he7r.onrender.com/",
+
+
+  }
 ];
 
 export default function Projects() {
