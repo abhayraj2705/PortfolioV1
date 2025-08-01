@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectionDB from "./connectDb/db.js";
-import { Contact } from "./models/contact.model.js";
+import { Contact } from "./models/contatct.model.js";
 
 dotenv.config();
 
@@ -35,4 +35,4 @@ app.post("/contact", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
