@@ -104,18 +104,11 @@ const Connect = () => {
           <div className="flex justify-center gap-4">
             <a 
               href="mailto:abhayraj27052005@gmail.com"
-              className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors"
+              className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-primary-hover transition-colors"
             >
               Send Email
             </a>
-            <a 
-              href="https://calendly.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-2 border border-primary text-primary rounded-lg hover:bg-primary/10 transition-colors"
-            >
-              Schedule Meeting
-            </a>
+            
           </div>
         </div>
       </div>

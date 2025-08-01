@@ -16,13 +16,13 @@ export const Homepage = () => {
         <div className="homepagesection space-y-8 max-w-2xl backdrop-blur-sm bg-black/30 rounded-xl p-8 border border-white/10 animate-fadeIn">
           <div className="space-y-4">
             <h2 className="text-cyan-400 text-xl font-medium animate-slideFromLeft delay-100">
-              Hi there 👋, I'm
+              Hi Welcome To My Portfolio
             </h2>
             <h1 className="text-5xl font-bold text-white animate-slideFromLeft delay-200">
               Abhayraj B
             </h1>
             <p className="text-2xl text-gray-300 animate-slideFromLeft delay-300">
-              Full Stack Developer & UI/UX Designer
+              MERN STACK DEVELOPER 
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export const Homepage = () => {
           <div className="space-y-4 animate-slideUp delay-500">
             <h3 className="text-xl font-semibold text-white">Tech Stack</h3>
             <div className="flex flex-wrap gap-3">
-              {['React', 'Node.js', 'TypeScript', 'MongoDB', 'Tailwind'].map((tech, index) => (
+              {['React', 'Node.js', 'TypeScript', 'MongoDB', 'Tailwind','Javascript'].map((tech, index) => (
                 <span
                   key={tech}
                   className="px-4 py-2 bg-black/30 text-white border border-white/10 rounded-full text-sm hover:border-cyan-400 hover:bg-cyan-400/10 transition-all"
@@ -48,14 +48,7 @@ export const Homepage = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex gap-4 animate-slideUp delay-600">
-            <button className="px-6 py-3 bg-cyan-500/80 text-black rounded-lg hover:bg-cyan-400 transition-all hover:scale-105 border border-cyan-400/60">
-              View Projects
-            </button>
-            <button className="px-6 py-3 bg-black/30 text-white border border-white/10 rounded-lg hover:border-cyan-400 hover:bg-cyan-400/10 transition-all hover:scale-105">
-              Contact Me
-            </button>
-          </div>
+         
         </div>
 
         {/* Lanyard Component */}

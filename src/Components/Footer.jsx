@@ -129,11 +129,7 @@ const Footer = () => {
               © {currentYear}{' '}
               <span className="text-primary">Abhayraj B</span>. All rights reserved.
             </p>
-            <p className="text-text-secondary text-sm">
-              Crafted with
-              <span className="text-red-500 mx-1">❤️</span>
-              using React & Tailwind
-            </p>
+            
           </div>
         </div>
       </div>
