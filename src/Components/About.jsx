@@ -26,7 +26,7 @@ const About = () => {
               <ul className="space-y-4">
                 <li className="text-text-secondary">
                   <span className="text-text-accent">2023 - 2027</span>
-                  <p className="font-medium">Bachelor of Engineering in Information Technology</p>
+                  <p className="font-medium">Bachelor of Engineering in Computer Science And Engineering</p>
                   <p>MIT ADT University</p>
                 </li>
               </ul>
