@@ -4,7 +4,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import nodemailer from "nodemailer";
 import connectionDB from "./connectDb/db.js";
-import { Contact } from "./models/contact.model.js";
+import { Contact } from "./models/contatct.model.js";
 
 dotenv.config();
 
