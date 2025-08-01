@@ -1,5 +1,5 @@
 import React from "react";
-import { PinContainer } from "../components/ui/3d-pin"; // adjust path as needed
+import { PinContainer } from "../Components/ui/3d-pin.jsx"; // adjust path as needed
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
