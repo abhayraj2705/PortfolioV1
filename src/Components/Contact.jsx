@@ -23,7 +23,7 @@ export default function Contact() {
     setStatus("Sending...");
 
     try {
-      const res = await fetch("http://localhost:3000/contact", {
+      const res = await fetch("https://portfoliov1-pjea.onrender.com/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
